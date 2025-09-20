@@ -12,6 +12,8 @@ import { Link } from 'react-router-dom'
 import HeroSection from '../components/sections/HeroSection'
 
 const HomePage = () => {
+  // Add console log to debug
+  console.log('HomePage component is rendering')
   const features = [
     {
       icon: GraduationCap,
@@ -48,6 +50,11 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen">
+      {/* Debug Test */}
+      <div style={{background: 'red', color: 'white', padding: '20px', textAlign: 'center'}}>
+        DEBUG: HomePage is rendering!
+      </div>
+      
       {/* Hero Section */}
       <HeroSection />
 
