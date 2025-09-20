@@ -654,11 +654,11 @@ const StudentResourcesPage = () => {
             Contact us for personalized assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="btn-secondary">
+            <Link to="/goldenEducation/contact" className="btn-secondary">
               Contact Student Services
               <ExternalLink className="w-5 h-5 ml-2" />
             </Link>
-            <Link to="/faq" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
+            <Link to="/goldenEducation/faq" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
               View FAQ
             </Link>
           </div>

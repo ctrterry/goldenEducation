@@ -581,11 +581,11 @@ const AdmissionsPage = () => {
             Contact us today to get started on your massage therapy journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="btn-secondary">
+            <Link to="/goldenEducation/contact" className="btn-secondary">
               Contact Admissions
               <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
-            <Link to="/programs" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
+            <Link to="/goldenEducation/programs" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
               View Programs
             </Link>
           </div>

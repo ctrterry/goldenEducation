@@ -237,7 +237,7 @@ const ProgramsPage = () => {
                   {/* CTA */}
                   <div className="pt-4 border-t border-neutral-200">
                     <Link 
-                      to="/admissions" 
+                      to="/goldenEducation/admissions" 
                       className="btn-primary w-full justify-center group-hover:bg-primary-700"
                     >
                       Apply for This Program
@@ -361,11 +361,11 @@ const ProgramsPage = () => {
             schedule a campus tour, or begin your application process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/admissions" className="btn-secondary">
+            <Link to="/goldenEducation/admissions" className="btn-secondary">
               Apply Now
               <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
-            <Link to="/contact" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
+            <Link to="/goldenEducation/contact" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
               Schedule a Tour
             </Link>
           </div>

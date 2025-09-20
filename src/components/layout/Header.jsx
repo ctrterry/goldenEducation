@@ -7,12 +7,12 @@ const Header = () => {
   const location = useLocation()
 
   const navigation = [
-    { name: 'Home', href: '/', current: location.pathname === '/' },
-    { name: 'Programs', href: '/programs', current: location.pathname === '/programs' },
-    { name: 'Admissions', href: '/admissions', current: location.pathname === '/admissions' },
-    { name: 'Student Resources', href: '/student-resources', current: location.pathname === '/student-resources' },
-    { name: 'About', href: '/about', current: location.pathname === '/about' },
-    { name: 'Contact', href: '/contact', current: location.pathname === '/contact' },
+    { name: 'Home', href: '/goldenEducation/', current: location.pathname === '/goldenEducation/' },
+    { name: 'Programs', href: '/goldenEducation/programs', current: location.pathname === '/goldenEducation/programs' },
+    { name: 'Admissions', href: '/goldenEducation/admissions', current: location.pathname === '/goldenEducation/admissions' },
+    { name: 'Student Resources', href: '/goldenEducation/student-resources', current: location.pathname === '/goldenEducation/student-resources' },
+    { name: 'About', href: '/goldenEducation/about', current: location.pathname === '/goldenEducation/about' },
+    { name: 'Contact', href: '/goldenEducation/contact', current: location.pathname === '/goldenEducation/contact' },
   ]
 
   const isActive = (path) => location.pathname === path
@@ -45,7 +45,7 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="/goldenEducation/" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">MS</span>
             </div>
@@ -74,7 +74,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Link to="/admissions" className="btn-primary">
+            <Link to="/goldenEducation/admissions" className="btn-primary">
               Apply Now
             </Link>
           </div>
@@ -112,7 +112,7 @@ const Header = () => {
               ))}
               <div className="pt-4">
                 <Link
-                  to="/admissions"
+                  to="/goldenEducation/admissions"
                   onClick={() => setIsMenuOpen(false)}
                   className="btn-primary w-full justify-center"
                 >

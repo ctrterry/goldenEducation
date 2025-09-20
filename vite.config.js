@@ -1,9 +1,9 @@
-const react = require('@vitejs/plugin-react')
-const path = require('path')
-const { defineConfig } = require('vite')
+import react from '@vitejs/plugin-react'
+import path from 'path'
+import { defineConfig } from 'vite'
 
-module.exports = defineConfig({
-  base: '/goldenEducation/', // Your actual repo name
+export default defineConfig({
+  base: '/goldenEducation/',
   plugins: [react()],
   resolve: {
     alias: {

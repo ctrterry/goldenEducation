@@ -537,7 +537,7 @@ const AboutPage = () => {
                     Are you a graduate with a success story to share? 
                     We'd love to hear about your journey and achievements.
                   </p>
-                  <Link to="/contact" className="btn-primary">
+                  <Link to="/goldenEducation/contact" className="btn-primary">
                     Share Your Story
                   </Link>
                 </div>
@@ -558,10 +558,10 @@ const AboutPage = () => {
             career in massage therapy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/admissions" className="btn-secondary">
+            <Link to="/goldenEducation/admissions" className="btn-secondary">
               Apply Now
             </Link>
-            <Link to="/contact" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
+            <Link to="/goldenEducation/contact" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
               Contact Us
             </Link>
           </div>

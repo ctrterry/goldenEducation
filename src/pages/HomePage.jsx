@@ -1,19 +1,17 @@
 import {
-    ArrowRight,
-    Award,
-    CheckCircle,
-    Clock,
-    GraduationCap,
-    Star,
-    Users
+  ArrowRight,
+  Award,
+  CheckCircle,
+  Clock,
+  GraduationCap,
+  Star,
+  Users
 } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import HeroSection from '../components/sections/HeroSection'
 
 const HomePage = () => {
-  // Add console log to debug
-  console.log('HomePage component is rendering')
   const features = [
     {
       icon: GraduationCap,
@@ -50,11 +48,6 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Debug Test */}
-      <div style={{background: 'red', color: 'white', padding: '20px', textAlign: 'center'}}>
-        DEBUG: HomePage is rendering!
-      </div>
-      
       {/* Hero Section */}
       <HeroSection />
 
@@ -158,7 +151,7 @@ const HomePage = () => {
                     <span className="text-neutral-600">Hands-on practice</span>
                   </li>
                 </ul>
-                <Link to="/programs#massage-therapy" className="btn-outline w-full justify-center group-hover:bg-primary-600 group-hover:text-white transition-colors duration-300">
+                <Link to="/goldenEducation/programs#massage-therapy" className="btn-outline w-full justify-center group-hover:bg-primary-600 group-hover:text-white transition-colors duration-300">
                   Learn More
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
@@ -192,7 +185,7 @@ const HomePage = () => {
                     <span className="text-neutral-600">Flexible scheduling</span>
                   </li>
                 </ul>
-                <Link to="/programs#continuing-education" className="btn-outline w-full justify-center group-hover:bg-secondary-600 group-hover:text-white transition-colors duration-300">
+                <Link to="/goldenEducation/programs#continuing-education" className="btn-outline w-full justify-center group-hover:bg-secondary-600 group-hover:text-white transition-colors duration-300">
                   Learn More
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
@@ -226,7 +219,7 @@ const HomePage = () => {
                     <span className="text-neutral-600">Prenatal massage</span>
                   </li>
                 </ul>
-                <Link to="/programs#specialized" className="btn-outline w-full justify-center group-hover:bg-accent-600 group-hover:text-white transition-colors duration-300">
+                <Link to="/goldenEducation/programs#specialized" className="btn-outline w-full justify-center group-hover:bg-accent-600 group-hover:text-white transition-colors duration-300">
                   Learn More
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
@@ -331,11 +324,11 @@ const HomePage = () => {
             and careers through our comprehensive massage therapy education.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/admissions" className="btn-secondary">
+            <Link to="/goldenEducation/admissions" className="btn-secondary">
               Apply Now
               <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
-            <Link to="/contact" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
+            <Link to="/goldenEducation/contact" className="btn-outline border-white text-white hover:bg-white hover:text-primary-600">
               Contact Us
             </Link>
           </div>

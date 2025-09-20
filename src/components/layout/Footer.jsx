@@ -138,10 +138,10 @@ const Footer = () => {
                 © {currentYear} Massage School. All rights reserved.
               </p>
               <div className="flex items-center justify-center md:justify-end space-x-4 mt-2 text-sm">
-                <Link to="/privacy" className="text-neutral-400 hover:text-primary-400">
+                <Link to="/goldenEducation/privacy" className="text-neutral-400 hover:text-primary-400">
                   Privacy Policy
                 </Link>
-                <Link to="/terms" className="text-neutral-400 hover:text-primary-400">
+                <Link to="/goldenEducation/terms" className="text-neutral-400 hover:text-primary-400">
                   Terms of Service
                 </Link>
               </div>

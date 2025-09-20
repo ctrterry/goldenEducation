@@ -55,11 +55,11 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <Link to="/admissions" className="btn-primary text-lg px-8 py-4 group">
+              <Link to="/goldenEducation/admissions" className="btn-primary text-lg px-8 py-4 group">
                 Start Your Journey
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </Link>
-              <Link to="/programs" className="btn-outline text-lg px-8 py-4 group">
+              <Link to="/goldenEducation/programs" className="btn-outline text-lg px-8 py-4 group">
                 View Programs
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </Link>
