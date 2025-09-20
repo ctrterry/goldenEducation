@@ -1,6 +1,7 @@
 {
   "name": "massage-school-website",
   "version": "1.0.0",
+  "type": "module",
   "description": "Professional massage therapy school website with modular architecture",
   "main": "index.js",
   "scripts": {
